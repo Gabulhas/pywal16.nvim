@@ -3,7 +3,7 @@ local M = {}
 M.highlights_base = function (colors)
   return {
     Normal = { fg = colors.foreground, bg = colors.transparent },
-    StatusLineNC = { fg = colors.transparent, bg = colors.transparent },
+    StatusLineNC = { fg = colors.color4, bg = colors.transparent },
     StatusLine = { fg = colors.transparent, bg = colors.transparent },
     SignColumn = { fg = colors.transparent, bg = colors.transparent },
     MsgArea = { fg = colors.foreground, bg = colors.transparent },
@@ -21,7 +21,7 @@ M.highlights_base = function (colors)
     Comment = { fg = colors.color10, bg = colors.background },
     Folded = { fg = colors.color4, bg = colors.transparent },
     FoldColumn = { fg = colors.color4, bg = colors.transparent },
-    LineNr = { fg = colors.color12, bg = colors.transparent },
+    LineNr = { fg = colors.color8, bg = colors.transparent },
     FloatBorder = { fg = colors.foreground, bg = colors.transparent },
     Whitespace = { fg = colors.color1, bg = colors.color2 },
     VertSplit = { fg = colors.color4, bg = colors.transparent },
